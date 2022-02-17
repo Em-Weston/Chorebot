@@ -1,1 +1,0 @@
-Chorebot, interactive game

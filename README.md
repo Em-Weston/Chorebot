@@ -19,7 +19,7 @@ The aim of the game is to open the three doors. Don't reveal chorebot until the 
 The game will record winning steaks and display the users best streak. 
 ***
 
-## technologies used
+## Technologies used
 * HTML
 * CSS
 * JAVASCRIPT 
@@ -34,6 +34,8 @@ I will include some images of the final game play.
 
 ## Project Status 
 Current Status: `Work in progress`
+I have created most of the user interface. With user-friendly, logical features. 
+Next is updating and adding the javascript. 
 *** 
 
 ## Room for improvement 

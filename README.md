@@ -34,8 +34,8 @@ I will include some images of the final game play.
 
 ## Project Status 
 Current Status: `Work in progress`
-I have created most of the user interface. With user-friendly, logical features. 
-Next is updating and adding the javascript. 
+I have created most of the user interface. With user-friendly, logical features. I have added the basic javascript, so the page responds to user interaction. 
+Next up, Is adding functionality to have a winner.  
 *** 
 
 ## Room for improvement 

@@ -29,19 +29,17 @@ The game will record winning steaks and display the users best streak.
 ***
 
 ## Screenshots 
-I will include some images of the final game play. 
+![This is the starting gameplay](ChoreBot/images/Screenshot-start-game.png)
 *** 
 
 ## Project Status 
-Current Status: `Work in progress`
-I have created most of the user interface. With user-friendly, logical features. I have added the basic javascript, so the page responds to user interaction. 
-I have built the functionality to finish the game and have a winner add the  logic to declare a loser.
- 
-* The Logic is flawed, you can continue clicking closed dooors and over-ride a loss to generate a win. 
+Current Status: `Basic gameplay completed`
+
 *** 
 
 ## Room for improvement 
 As I work through the project, any ideas for improvments will be listed below.
+* I would like to add a current streak and best Streak counter. This should make the game more interesting, and add a competitive edge. 
 ***
 
 ## Acknowledgements

@@ -30,16 +30,17 @@ The game will record winning steaks and display the users best streak.
 
 ## Screenshots 
 This is the Starting game play: 
-![This is the starting gameplay](images/Screenshot-start-game.png)
+<img src="images/Screenshot-start-game.png" alt="This is the starting gameplay" width="300" />
+
 
 This is a screenshot of game play:
-![This is game play](images/Screenshot-game-play.png)
+<img src="images/Screenshot-game-play.png" alt="Game play" width="300" />
 
 This is Winning the game: 
-<img src="images/Screenshot-you-win.png" alt="Winning the game" width="250" />
+<img src="images/Screenshot-you-win.png" alt="Winning the game" width="300" />
 
 This is losing the game: 
-![This is loosing the Game](images/Screenshot-you-loose.png)
+<img src="images/Screenshot-you-loose.png" alt="This is loosing the Game" width="300" />
 *** 
 
 ## Project Status 

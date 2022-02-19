@@ -29,7 +29,11 @@ The game will record winning steaks and display the users best streak.
 ***
 
 ## Screenshots 
-![This is the starting gameplay](images/Screenshot-start-game.png)
+This is the Starting game play: 
+![This is the starting gameplay](images/Screenshot-start-game.png=250x)
+
+This is a screenshot of game play:
+![This is game play](images/Screenshot-game-play.png)
 *** 
 
 ## Project Status 

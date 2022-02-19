@@ -35,8 +35,9 @@ I will include some images of the final game play.
 ## Project Status 
 Current Status: `Work in progress`
 I have created most of the user interface. With user-friendly, logical features. I have added the basic javascript, so the page responds to user interaction. 
-I have built the functionality to finish the game and have a winner. 
-I now need to add the Javascript logic to declare a looser. 
+I have built the functionality to finish the game and have a winner add the  logic to declare a loser.
+ 
+* The Logic is flawed, you can continue clicking closed dooors and over-ride a loss to generate a win. 
 *** 
 
 ## Room for improvement 

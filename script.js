@@ -14,10 +14,12 @@ let openDoor2;
 let openDoor3;
 // Global variable grabbing the start button
 const startButton = document.getElementById('start');
+// Global variable to check if the player is currently playing 
+let currentlyPlaying = true;
 // Function checking if the door opened contains the botPath. returning true or false
 const isBot = (door) => {
     // console.log('checking Bot');
-    if (door.src === botDoorPath) {
+    if(door.src === botDoorPath) {
         // console.log('this is a bot')
         return true; 
     } else {
@@ -41,7 +43,7 @@ const playDoor = (door) => {
     //  if (numClosedDoors === 0)
     if (numClosedDoors === 0) {
         gameOver('win');
-    } else if (isBot(door) === true) {
+    } else if (isBot(door)) {
         gameOver();
     }
 }
@@ -65,33 +67,39 @@ const randomChoreDoorGenerator = () => {
 }
 //  onclick function, 
 doorImage1.onclick = () => {
-    if (!isClicked(doorImage1)) {
-        doorImage1.src = openDoor1;
-        playDoor(doorImage1);
-    }
-    
+        if (currentlyPlaying && !isClicked(doorImage1)) {
+             doorImage1.src = openDoor1;
+             playDoor(doorImage1);
+        }
 };
 
 doorImage2.onclick = () => {
-    if (!isClicked(doorImage2)) {
-        doorImage2.src = openDoor2;
-        playDoor(doorImage2);
-    } 
+    // if (!isClicked(doorImage2)) {
+    //     doorImage2.src = openDoor2;
+    //     playDoor(doorImage2);
+        if (currentlyPlaying && !isClicked(doorImage2)) {
+            doorImage2.src = openDoor2;
+            playDoor(doorImage2);
+        }
 };
 
 doorImage3.onclick = () => {
-    if (!isClicked(doorImage3)) {
-        doorImage3.src = openDoor3;
-        playDoor(doorImage3);
-    }
+    // if (!isClicked(doorImage3)) {
+    //     doorImage3.src = openDoor3;
+    //     playDoor(doorImage3);
+        if(currentlyPlaying && !isClicked(doorImage3)) {
+            doorImage3.src = openDoor3;
+            playDoor(doorImage3);
+        }
 };
 
 gameOver = (status) => {
     if (status === 'win') {
-        startButton.innerHTML = 'You win! Play again?';
+        startButton.innerHTML = 'You win! Play again?'; 
     } else {
         startButton.innerHTML = 'Game Over! Play again?';
     }
+    currentlyPlaying = false; 
 };
 
 randomChoreDoorGenerator();

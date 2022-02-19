@@ -46,6 +46,8 @@ This is losing the game:
 ## Project Status 
 Current Status: `Basic gameplay completed`
 
+Visit the site on [github pages](https://em-weston.github.io/Chorebot/)
+
 *** 
 
 ## Room for improvement 
